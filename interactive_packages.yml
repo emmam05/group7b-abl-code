@@ -1,0 +1,16 @@
+name: abl_cw_interactive
+channels:
+- defaults
+dependencies:
+- python=3.11  # Specify the Python version
+- dash  # Dash framework
+- plotly  # Plotly for visualizations
+- pandas  # For data manipulation
+- numpy  # For numerical computations
+- scipy  # For scientific computing
+- flask  # For web server (used by Dash)
+- scikit-learn  # For machine learning (if needed)
+- matplotlib  # For additional plotting needs
+- pip  # Include pip for pip-based installations
+- ipykernel
+- netCDF4
