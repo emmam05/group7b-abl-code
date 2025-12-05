@@ -10,13 +10,9 @@ The code here can be used to recreate the figures and analysis from our final re
 ## Plotting model output  
 - **plot_vertical_profiles.m** reproduces report figures that show vertical profiles of atmospheric variables
 - **plot_control_bowen_fluxes.m** reproduces the figure in our report that shows the diurnal cycle of surface fluxes and Bowen ratio
-- **plot_bias_[var].m** function to plot the error of a given variable in our model over vertical height
-- **bias_plots_script.m** reporduces the figures that show error in our model in the report
+- **bias_plots_script.m** reproduces the figures that show error in our model in the report
   
 ## Calculating LCL, time of cloud formation 
-- **calc_cloud_base_bolton.m ** uses the method from Bolton et al. 1980 to calcualte the LCL from our model output
-- **calc_cloud_base_romps.m** uses the method from Romps et al. 2017 to calcualte the LCL from our model output
-- **calc_time_of_clouds.m** estimates the time at which the Boundary Layer Height meets the LCL
 - **diagnose_cloud_base_test.m** reproduces the figure in our paper that shows the evolution of the BLH and LCL, and how we estimated the time of cloud formation from this
 
 ## Sensitivity Tests 
